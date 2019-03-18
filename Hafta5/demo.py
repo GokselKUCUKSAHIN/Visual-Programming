@@ -1,9 +1,6 @@
-#!/usr/bin/env python
+#edited for Python3, raspberry pi 3B, sh1106
 
-# Ported from:
-# https://github.com/adafruit/Adafruit_Python_SSD1306/blob/master/examples/shapes.py
-
-from oled.device import ssd1306, sh1106
+from oled.device import sh1106
 from oled.render import canvas
 from PIL import ImageFont
 
